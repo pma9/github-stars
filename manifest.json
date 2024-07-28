@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Github ⭐️s",
+  "version": "1.0",
+  "description": "A simple extension to view how many stars a Github repository link has.",
+  "action": {},
+  "background": {
+    "service_worker": "star-finder.js"
+  },
+  "permissions": ["activeTab", "scripting", "storage"],
+  "options_ui": {
+    "page": "options.html"
+  }
+}
